@@ -1,0 +1,15 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "components": [
+    {
+      "name": "github-pr-starter",
+      "role": "starter",
+      "entrypoint": "starter",
+      "pattern": "^https://github.com/.*/pull/[0-9]+$"
+    }
+  ],
+  "conventions": [
+    { "name": "gitflow", "prefixes": ["feature/{slug}", "bugfix/{slug}"] }
+  ]
+}
